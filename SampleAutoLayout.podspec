@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'SampleAutoLayout/Classes/*.{h,m}'
+  s.source_files = 'Sources/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'SampleAutoLayout' => ['SampleAutoLayout/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/*.h'
+  s.public_header_files = 'Sources/Classes/*.h'
 end
